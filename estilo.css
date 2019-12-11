@@ -1,0 +1,50 @@
+.cabecera{
+	background-image: url(fondo.jpg);
+	padding-top: 130px;
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	height: 360px;
+	margin-top: 15px;
+	border-radius: 20px;
+
+}
+.borde {
+	border: 1px solid #dcdcdc;
+	padding: 26px;
+	padding-top: -40px;
+}
+.row{
+	padding-top: 50px;
+  padding-left: 13px;
+  padding-right: 11px;
+}
+.col-sm-8{
+	margin-left: 25px;
+}
+.col-sm-3{
+	    margin-left: 50px;
+}
+.baja{
+	margin-top: 20px;
+
+}
+img{
+	border-radius: 10px;
+}
+h5.habi{
+	font-size: 16px;
+}
+@media (max-width: 500px) {
+	.col-sm-8.borde{
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	.col-sm-3.borde{
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	img{
+		margin-left: 60px;
+	}
+}
